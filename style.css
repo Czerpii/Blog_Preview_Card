@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  html {
+    font-family: "Figtree", sans-serif;
+    font-size: 10px;
+  }
+
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: hsl(47, 88%, 63%);
+  }
+
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    max-width: 384px;
+    padding: 24px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 8px 8px #000;
+  }
+
+  .img-container {
+    align-self: center;
+    overflow: hidden;
+  }
+
+  .img-container img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .y-badge {
+    align-self: flex-start;
+    margin-top: 24px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+
+    
+  }
+
+  .date-text {
+    margin-top: 12px;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .card-header {
+    margin-top: 12px;
+    font-size: 2.4rem;
+    font-weight: 800;
+    cursor: pointer;
+    
+  }
+
+  .card-header:hover {
+    color:hsl(47, 88%, 63%)
+  }
+
+  .main-text {
+    margin-top: 12px;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .creator-badge {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  .creator-badge img {
+    width: 32px;
+  }
+
+  .creator-badge p {
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding-left: 12px;
+  }
+
+footer {
+    align-self: center;
+ }
+
+
+.attribution {
+    font-size: 1.1rem;
+
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
